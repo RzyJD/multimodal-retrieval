@@ -1,0 +1,23 @@
+# Paths resolve relative to this YAML file; source data are not published.
+# See DATASET.md for source and generated layouts.
+root_path: '../.local/tip_adapter'
+source_dir: '../data/tip_adapter'
+target_dir: '../.local/tip_adapter/datasets/images'
+keep_classes: 'Dog'
+
+# Reload only for exactly the same data, prompts and configuration.
+load_cache: False
+load_pre_feat: False
+
+# Historical hyperparameters retained during publication cleanup.
+search_hp: True
+search_scale: [30, 3]
+search_step: [1200, 30]
+init_beta: 1
+init_alpha: 1.17
+dataset: 'imagenet'
+shots: 200
+backbone: 'RN50'
+lr: 0.0001
+augment_epoch: 10
+train_epoch: 20

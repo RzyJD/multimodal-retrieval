@@ -1,0 +1,22 @@
+# Runtime dependencies, not a reconstruction of the historical environment.
+# Install a torch/torchvision build appropriate for your device first if needed.
+torch
+torchvision
+numpy
+Pillow
+tqdm
+matplotlib
+scikit-learn
+transformers
+accelerate
+sentencepiece
+protobuf
+PyYAML
+ftfy
+regex
+requests
+pandas
+jupyterlab
+ipywidgets
+git+https://github.com/openai/CLIP.git
+# LLaVA has a separate upstream environment: see docs/SETUP.md.

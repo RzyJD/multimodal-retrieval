@@ -1,0 +1,8 @@
+# Inference-only dependencies. Use a separate environment from LLaVA.
+# This is a compatibility constraint, not a verified historical environment lock.
+torch>=2.1,<3
+transformers>=4.37.2,<5
+numpy<2
+Pillow
+sentencepiece
+protobuf

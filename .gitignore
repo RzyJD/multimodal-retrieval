@@ -1,0 +1,53 @@
+# Local datasets: keep the files on disk, exclude them from Git.
+/image_to_image_retrieval/datasets/
+/two_stage_retrieval/image_text_matching/Picture/
+/tip_adapter_ft/datasets/
+/tip_adapter_ft/images/
+/data/
+/.local/
+
+# Models, generated features, predictions and local experiment outputs.
+**/caches/
+**/checkpoints/
+**/llava-v1.5-7b/
+**/models/
+*.pt
+*.pth
+*.pth.tar
+*.safetensors
+*.bin
+*.pkl
+* llava dataset
+*推理结果
+wandb/
+
+# Local figure workshop (includes embedded dataset photos).
+/figures/
+/单词.md
+/tip_adapter_ft/exp.log
+/tip_adapter_ft/cache_model.png
+
+# Notebook media may also contain dataset photos; public notebooks are text-only.
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
+._*
+*.dtmp
+.idea/
+.vscode/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+*.zip
+*.whl
+
+# Local exploratory drafts; public examples use the main notebooks and CLI.
+/image_to_image_retrieval/clip_encoder_exploration.ipynb
+/image_to_image_retrieval/reference_retrieval_debug.ipynb
+/image_to_image_retrieval/cluster_text_fusion_exploration.ipynb

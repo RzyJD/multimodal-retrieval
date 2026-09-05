@@ -1,0 +1,13 @@
+# Model-facing versions from the original LLaVA environment (Python 3.10).
+# This is not a complete lockfile; install upstream LLaVA separately for stage 2.
+torch==2.1.2
+torchvision==0.16.2
+transformers==4.37.2
+tokenizers==0.15.1
+accelerate==0.21.0
+sentencepiece==0.1.99
+numpy<2
+Pillow
+ftfy
+regex
+git+https://github.com/openai/CLIP.git

@@ -1,0 +1,10 @@
+# Imported runtime for this adaptation, not a historical environment lockfile.
+# Select a compatible CUDA torch/torchvision pair for the execution machine.
+torch
+torchvision
+numpy
+Pillow
+PyYAML
+tqdm
+ftfy
+regex
